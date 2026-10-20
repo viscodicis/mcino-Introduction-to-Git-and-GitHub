@@ -1,0 +1,7 @@
+﻿PS C:\Users\Bruno\Downloads\mcino-Introduction-to-Git-and-GitHub> git branch -avv
+  bug-fix-revert                e0306ad [origin/bug-fix-revert] Revert "Fix typo in README output label"
+  bug-fix-typo                  5cb1d3f Fix typo in README output label
+* main                          956eebe [origin/main] Add pull request verification evidence
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert e0306ad Revert "Fix typo in README output label"
+  remotes/origin/main           956eebe Add pull request verification evidence
