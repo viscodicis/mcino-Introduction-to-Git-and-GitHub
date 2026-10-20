@@ -1,0 +1,11 @@
+﻿PS C:\Users\Bruno\Downloads\mcino-Introduction-to-Git-and-GitHub> curl.exe -s "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/12624" | ConvertFrom-Json | Select-Object number,title,state,html_url,@{Name='head_repository';Expression={$_.head.repo.full_name}},@{Name='head_branch';Expression={$_.head.ref}},@{Name='head_is_fork';Expression={$_.head.repo.fork}},@{Name='base_repository';Expression={$_.base.repo.full_name}},@{Name='base_branch';Expression={$_.base.ref}} | Format-List
+
+number          : 12624
+title           : Bug fix revert
+state           : closed
+html_url        : https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/12624
+head_repository : viscodicis/mcino-Introduction-to-Git-and-GitHub
+head_branch     : bug-fix-revert
+head_is_fork    : True
+base_repository : ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
+base_branch     : main
